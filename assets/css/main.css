@@ -1,0 +1,279 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	display: flex;
+	flex-direction: column;
+}
+#top {
+	height:35px;
+	padding: 10px;
+	padding-right: 5%;
+	background: #2954a2;
+	color:#fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+a{
+	text-decoration: none;
+}
+#top .item {
+	margin:10px;
+}
+#top a:hover {
+	color:orange;
+}
+#top a:active, a:link{
+
+	color:white;
+}
+
+#banner {
+	display: flex;
+    flex:1;
+    max-height: 650px;
+}
+#welcome{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+    right:5%;
+    left:5%;
+    position: absolute;
+    top: 250px;
+    font-size: 1em;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+.button a{
+	padding: 10px;
+	background: #f4792c;
+	color: white;
+	margin:10px 0;
+}
+.button a:hover{
+	background: white;
+	color: black;
+}
+#welcome div{
+	margin:20px;
+
+}
+
+#welcome h3 {
+	text-align: center;
+    font-size: 3.5em;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+#welcome .button {
+	margin-top: 10px;
+}
+#welcome .special {
+	font-size: 75px;
+}
+header {
+ 	position: absolute;
+ 	top:55px;
+ 	width: 92.6%;
+ 	padding:0px 3.7%;
+ 	display: flex;
+ 	background: rgba(0, 0, 0, 0.2);;
+	justify-content: space-between;
+}
+.logo {
+	/*display: flex;*/
+	/*align-items: center;*/
+	font-family: Verdana;
+    font-size: 28px;
+    color: white;
+    margin: 5px;
+}
+
+#box {
+	position: absolute;
+	top:410px;
+	left:5%;
+	right:5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+#box .item {
+	margin:40px;
+	padding:0px;
+	background: snow;
+	width: 300px;
+ 	/*height: 200px;*/
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	/*justify-content: center;*/
+ }
+ #box .item:hover {
+ 	background: #2954a2;
+ 	color: white;
+
+ }
+ #box .item:hover .line {
+ 	background: #f4792c;
+ }
+ #box .item .title {
+ 	font-size: 24px;
+ 	color:#f4792c;
+ }
+ #box .item div {
+ 	margin:10px;
+ 	padding:10px;
+ }
+ #box .item .line {
+	height: 10px;
+	margin:0px;
+	padding:0px;
+	background: #2954a2;
+	width: 100%;
+}
+#box .item .description {
+	margin:0px;
+	font-family: sans-serif;
+    font-size: 20px;
+}
+nav {
+	background: none;
+	font-family: 'PT Sans', sans-serif;;
+	font-size:100%;
+	font-weight: normal;
+}
+nav ul {
+	display: flex;
+}
+nav ul li{
+	list-style-type: none;
+	padding: 10px;
+	padding-top: 25px;
+	/*margin:10px;*/
+	/*width: 100px;*/
+}
+nav ul li a, nav ul li {
+	border: 2px solid transparent;
+	color:#ecf0f1;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+nav ul li:hover, .active {
+	/*border-color: white;*/
+	/*border-radius: 5px;*/
+	background: #2954a2;
+}
+
+section article {
+	font-family: 'MerriweatherRegular';
+	font-size: 18px;
+    line-height: 32px;
+    color: #a0a0a0;
+    /*text-align: center;*/
+    margin-top:40px;
+}
+#about {
+	margin-top: 35px;
+}
+#about img {
+	width: 40%;
+}
+#about .description {
+	margin: 0px;
+}
+#about 
+section img {
+	width: 100%;
+}
+section article .title {
+	text-transform: capitalize;
+    color: #2954a2;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin:40px;
+    padding:10px;
+}
+section article .description {
+	margin:40px;
+	text-align: left;
+}
+section article .subtitle {
+	font-size: 12px;
+}
+section article .gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin:0px;
+	padding:0px;
+}
+section article .gallery img {
+	width:252px;
+	height: 252px;
+	margin:10px;
+}
+.offer-items, .messages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding:10px;
+	justify-content: center;
+	align-items: center;
+}
+.messages {
+	justify-content: center;	
+}
+.offer-item {
+	background: #fffcfc;
+	width: 400px;
+	margin:10px;
+	padding:10px;
+}
+.offer-item .body {
+	text-align: left;
+	color:rgba(0,0,0,0.8);
+}
+.message {
+	width: 500px;
+	display: flex;
+	flex-direction: row;
+	background: #fffcfc;
+	margin: 10px;
+}
+.message .title {
+	font-size: 18px;
+}
+.message img{
+	width: 200px;
+	height: 200px;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: black;
+	height: 100px;
+	font-size: 20px;
+	color:white;
+	padding:10px;
+	text-align: center;
+	font-family: sans-serif;
+}
